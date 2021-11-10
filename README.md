@@ -1,0 +1,2 @@
+# Bash Commands
+A list of Git Bash commands, along with their uses and explanations. This is my second project with GetCoding (my first project working with my coach, Gillian). I will use HTML and CSS to create a list of Bash commands, along with explanations of the purpose and how to use each command. The project will utilize numbered lists, bullet lists, various fonts and backgrounds. The project will also be dynamic in that it will adjust with resizing of the window.
