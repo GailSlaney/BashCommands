@@ -1,16 +1,14 @@
 body{
-    background-color:#f4f4f4;
+    background-color:#f2f2f2; /*very light grey*/
     color:#000000;
-    font-family: Tahoma, Geneva,sans-serif;
+    font-family: Tahoma, Geneva, sans-serif;
     font: size 16px;
     font-weight: normal;
     
-    line-height: 1.6em;
+    line-height: 1.8em;
     margin:0;
 }
-h1{
-    color:#333;
-}
+
 h2{
     color:black;
     font-size: 30px;
@@ -19,4 +17,26 @@ h2{
 
 a{
     text-decoration: none;  
+}
+.container{
+    width: 80%;
+    /* using % instead of 500px or 960px, the sizing is responsive to changing window sizing. */
+    margin:auto;
+}
+.box-1{
+    text-align: center;
+    background-color: darkslategray;
+    color: floralwhite;
+
+    border: 5px black solid;
+    border-width: 3 px;
+    border-bottom-width: 10px;
+    padding: 20px;
+}
+.box-2{
+    text-align: center;
+    
+    border:3px dotted #ccc;
+    padding:20px;
+    margin: 20px 0;
 }
