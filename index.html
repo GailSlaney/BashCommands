@@ -12,20 +12,19 @@
             <div class = "box-1">
                 <h1>Bash Commands</h1>
             </div>
-        <hr>
             <div class = "box-2">
-                <h2>This page will attempt to explain <strong>how to use</strong> <em>Bash Commands</em> and define <strong>what they do.</strong></h2>
+                <h2>This page explains <strong>how to use</strong> <em>Bash Commands</em> and defines <strong>what they do.</strong></h2>
             </div>
             <div class = "definitions">
                 <ol>
-                    <li>Git Add
+                    <li class = "command">Git Add
                         <ul class = "details">
                             <li>Adds a file to the staging area.</li>
                             <li>Example to add single file: git add index.html</li>
                             <li>Example to add all unstaged files to the staging area: git add . </li>
                         </ul>
                     </li>
-                    <li>Git Commit
+                    <li class = "command">Git Commit
                         <ul class = "details">
                             <li>Records a snapshot of the file permanently in the version history.</li>
                             <li>Example: git commit -m 'comment explaining changes since last commit'</li>
@@ -36,7 +35,7 @@
                                 <li>Click ":wq" to return to git bash window</li>
                         </ul>
                     </li>
-                    <li>Git Clone
+                    <li class = "command">Git Clone
                         <ul class = "details">
                             <li>Copies a repository from an existing URL.</li>
                             <li>Example: git clone https://github.com/example/example.git </li>
@@ -77,30 +76,26 @@
                     </li>
                     <li>Git Push
                         <ul class = "details">
-                            <li>Sets the author name and email address to be used with the commit command.</li>
-                            <li>Example: git Config --global user.name 'username'</li>
-                            <li>Example: git Config --global user.email 'user@email.com'</li>
+                            <li>Sends the committed changes of the master branch (or other specified branch) to the associated remote repository.</li>
+                            <li>Example: git push variableName branchName</li>
                         </ul>
                     </li>
                     <li>Git Remote
                         <ul class = "details">
-                            <li>Sets the author name and email address to be used with the commit command.</li>
-                            <li>Example: git Config --global user.name 'username'</li>
-                            <li>Example: git Config --global user.email 'user@email.com'</li>
+                            <li>Connects your local repository to the remote server.</li>
+                            <li>Example: git remote add variableName https://github.com/example/example.git </li>
                         </ul>
                     </li>
                     <li>Git Remove
                         <ul class = "details">
-                            <li>Sets the author name and email address to be used with the commit command.</li>
-                            <li>Example: git Config --global user.name 'username'</li>
-                            <li>Example: git Config --global user.email 'user@email.com'</li>
+                            <li>Removes individual files or a collection of files from the staging area and the working directory of the current branch.</li>
+                            <li>Example: git rm exampleFile.txt</li>
                         </ul>
                     </li>
                     <li>Git Status
                         <ul class = "details">
-                            <li>Sets the author name and email address to be used with the commit command.</li>
-                            <li>Example: git Config --global user.name 'username'</li>
-                            <li>Example: git Config --global user.email 'user@email.com'</li>
+                            <li>Lists all files, stating files that have changes to be committed, or files that need to be added to staging area.</li>
+                            <li>Example: git status</li>
                         </ul>
                     </li>
                 </ol>
