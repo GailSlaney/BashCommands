@@ -35,8 +35,12 @@ a{
 }
 .box-2{
     text-align: center;
-    
+
     border:3px dotted #ccc;
     padding:20px;
     margin: 20px 0;
+}
+.definitions{
+    border: 3px dimgray dotted;
+    
 }
