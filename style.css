@@ -2,23 +2,35 @@ body{
     background-color:#f2f2f2; /*very light grey*/
     color:#000000;
     font-family: Tahoma, Geneva, sans-serif;
-    font: size 16px;
+    font-size: 16px;
     font-weight: normal;
-    
     line-height: 1.8em;
     margin:0;
 }
-
+/*Defaults for h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}*/
 h2{
     color:black;
     font-size: 25px;    
     font-weight: 500;
     color-adjust:initial;
+    /*Defaults
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;*/
 }
 
-a{
-    text-decoration: none;  
-}
 .container{
     width: 80%;
     /* using % instead of 500px or 960px, the sizing is responsive to changing window sizing. */
@@ -44,26 +56,39 @@ a{
 /*.box-2 h2{
     font-size: 18px;
     font-weight: 500;
+    Defaults
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }*/
+
 .definitions{
     border: 1px dimgray dotted;
     border-radius: 15px;
     
+    
 }
-.commands li{
-    line-height: 30em;
-    /*padding-top: 3000px;
-    margin-top: 3000px;*/
+.command {
+    line-height: 1.4em;
+    padding-top: 8px;
+    font-weight: 500;
+    /*margin-top: 300px;*/
 }
 .details li::marker{
     color: grey;
     font-size: 1em;
+    
 }
 .details li{
+    font-weight: 100;
     line-height: 1.4em;
+    padding-top: 0px;
    /*margin-top: 0px;
-   margin-bottom: 0px;
-   padding-top: 0px;
+   margin-bottom: 0px;   
    padding-bottom: 0px;
    border-top-width: 0px;
    border-bottom-width: 0px;*/
@@ -79,5 +104,21 @@ a{
 }
 .details li:nth-child(7){
     margin-left: 30px;
+}
+.details li:last-child{
+    padding-bottom: 10px;
+}
+h3{
+    display: inline;
+  font-size: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+    color: darkblue;
+    font-weight: 100;
+    line-height: 1.4em;
+    padding-top: 0px;
 }
 
