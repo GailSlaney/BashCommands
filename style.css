@@ -75,6 +75,7 @@ h2{
 .command {
     line-height: 1.4em;
     padding-top: 8px;
+    /*font-size: 1.2em;*/
     font-weight: 500;
     /*margin-top: 300px;*/
 }
@@ -84,6 +85,7 @@ h2{
     
 }
 .details li{
+    font-size: 1.0em;
     font-weight: 100;
     line-height: 1.4em;
     padding-top: 0px;
