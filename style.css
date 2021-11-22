@@ -100,15 +100,19 @@ h2{
    border-bottom-width: 0px;*/
 }
 .details li:nth-child(4){
+    list-style-type: circle;
     margin-left: 30px;
 }
 .details li:nth-child(5){
+    list-style-type: circle;
     margin-left: 30px;
 }
 .details li:nth-child(6){
+    list-style-type: circle;
     margin-left: 30px;
 }
 .details li:nth-child(7){
+    list-style-type: circle;
     margin-left: 30px;
 }
 .details li:last-child{
