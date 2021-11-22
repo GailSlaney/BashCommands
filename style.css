@@ -99,11 +99,14 @@ h2{
    border-top-width: 0px;
    border-bottom-width: 0px;*/
 }
-.details li:nth-child(4){
+.details li:nth-child(4),
+.details li:nth-child(5),
+.details li:nth-child(6),
+.details li:nth-child(7){
     list-style-type: circle;
     margin-left: 30px;
 }
-.details li:nth-child(5){
+/*.details li:nth-child(5){
     list-style-type: circle;
     margin-left: 30px;
 }
@@ -114,7 +117,7 @@ h2{
 .details li:nth-child(7){
     list-style-type: circle;
     margin-left: 30px;
-}
+}*/
 .details li:last-child{
     padding-bottom: 1.2em;
 }
