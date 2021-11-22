@@ -75,17 +75,21 @@ h2{
 .command {
     line-height: 1.4em;
     padding-top: 8px;
-    /*font-size: 1.2em;*/
+    /*font-size: 2em;*/
     font-weight: 500;
     /*margin-top: 300px;*/
 }
+.command li{
+    /*font-size: 2em;*/
+}
 .details li::marker{
-    color: grey;
-    font-size: 1.4em;
+    color: black;
+    font-size: 1em;
     
 }
 .details li{
-    font-size: 1.0em;
+    list-style-type: disc;
+    font-size: 1em;
     font-weight: 100;
     line-height: 1.4em;
     padding-top: 0px;
