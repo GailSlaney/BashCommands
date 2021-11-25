@@ -79,9 +79,9 @@ h2{
     font-weight: 500;
     /*margin-top: 300px;*/
 }
-.command li{
-    /*font-size: 2em;*/
-}
+/*.command li{
+    font-size: 2em;
+}*/
 .details li::marker{
     color: black;
     font-size: 1em;
